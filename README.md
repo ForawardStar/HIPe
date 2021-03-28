@@ -30,8 +30,11 @@ If one wants to use the exemplar image which doesn't belong to target domain, ju
 
 ## Results
 Input image             |  Multi-scale edge guidance
+:-------------------------:|:-------------------------:
 ![](img/building3.png)  |  ![](img/building3_edge.png)
+
 Filtered result             |  1-D signals of intensity corresponding to the rows indicated by the yellow arrow in input
+:-------------------------:|:-------------------------:
 ![](img/building3_smooth.png)  |  ![](img/Plot_firstpic2.png)
 
 
