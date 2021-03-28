@@ -29,7 +29,9 @@ If one wants to use the exemplar image which doesn't belong to target domain, ju
 ```python test.py```
 
 ## Results
-<img src="img/building3.png" width="400" alt="Input"/><br/><img src="img/building3_edge.png" width="400" alt="Edge"/><br/>
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](img/building3.png)  |  ![](img/building3_edge.png)
 
 
 
