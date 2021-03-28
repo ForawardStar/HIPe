@@ -29,6 +29,7 @@ If one wants to use the exemplar image which doesn't belong to target domain, ju
 ```python test.py```
 
 ## Results
+<img src="img/building3.png" width="200" height="200" alt="抖音小程序"/><br/>
 ![Reesult](img/building3.png)
 ![Reesult](img/building3_edge.png)
 
