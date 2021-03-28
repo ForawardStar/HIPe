@@ -29,9 +29,12 @@ If one wants to use the exemplar image which doesn't belong to target domain, ju
 ```python test.py```
 
 ## Results
-Solarized dark             |  Solarized Ocean
+Input Image             |  Multi-Scale Edge Guidance
 :-------------------------:|:-------------------------:
 ![](img/building3.png)  |  ![](img/building3_edge.png)
+Filtered Result             |  1-D signals corresponding to the rows indicated by the yellow in input
+:-------------------------:|:-------------------------:
+![](img/building3_smooth.png)  |  ![](img/building3_edge.png)
 
 
 
