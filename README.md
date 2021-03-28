@@ -38,21 +38,11 @@ Filtered result             |  1-D signals of intensity corresponding to the row
 ![](img/building3_smooth.png)  |  ![](img/Plot_firstpic2.png)
 
 
-
-## Implementation Details
-When translating shoes/handbags to edges or translating facades (buildings) to semantic maps, style losses are not needed because edges or semantic maps are exemplar images. Thus, our code in 'train.py' use a if statement to distinguish shoes/handbags to edges and facades to maps from the other domains. Our code sets label = 0 and label = 1 to represent shoes to edges and facades to maps respectively, please change the following code in 'train.py'  if necessary according to your own settings.
-```
-if label == 3:
-    loss_style_AB = criterion_style(fakeB_mean_std, realB_mean_std)
-else:
-    loss_style_AB = 0
-```
-
 ## Citation
 ```
 @misc{fu2019edit,
-    title={EDIT: Exemplar-Domain Aware Image-to-Image Translation},
-    author={Yuanbin Fu and Jiayi Ma and Lin Ma and Xiaojie Guo},
+    title={Hierarchical Image Peeling: A Flexible Scale-space Filtering Framework},
+    author={Yuanbin Fu and Lin di and Jiayi Ma and Haibin Ling and Xiaojie Guo},
     year={2019},
     eprint={1911.10520},
     archivePrefix={arXiv},
