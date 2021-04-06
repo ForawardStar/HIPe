@@ -40,12 +40,12 @@ Filtered result             |  1-D signals of intensity corresponding to the row
 
 ## Citation
 ```
-@misc{fu2019edit,
-    title={Hierarchical Image Peeling: A Flexible Scale-space Filtering Framework},
-    author={Yuanbin Fu and Lin di and Jiayi Ma and Haibin Ling and Xiaojie Guo},
-    year={2019},
-    eprint={1911.10520},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@misc{yuanbin2021hierarchical,
+      title={Hierarchical Image Peeling: A Flexible Scale-space Filtering Framework}, 
+      author={Fu Yuanbin and Guoxiaojie and Hu Qiming and Lin Di and Ma Jiayi and Ling Haibin},
+      year={2021},
+      eprint={2104.01534},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
