@@ -26,7 +26,7 @@ We provide the images for testing in FileFolder named "example", and your can ch
 
 ## Results
 ### A peeling example
-We design a flexible hierarical image peeling framework, which can produce a filtering result strictly adhering to an edge guidance with spatially-changed scales.
+We design a flexible hierarical image peeling framework, which can produce a filtering result strictly adhering to an edge guidance with spatially-varied scales.
 
 Input image             |  Multi-scale edge guidance
 :-------------------------:|:-------------------------:
