@@ -7,7 +7,7 @@ This is the official code of the paper "Hierarchical Image Peeling: A Flexible S
 ## Network Architecture
 ![Reesuly](img/arch.png)
 
-## Dependnecy
+## Dependency
 python 3.5, pyTorch >= 1.4.0 (from https://pytorch.org/), numpy, Pillow.
 ## Usage
 
