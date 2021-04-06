@@ -36,7 +36,9 @@ Filtered result             |  1-D signals of intensity corresponding to the row
 :-------------------------:|:-------------------------:
 ![](img/building3_smooth.png)  |  ![](img/Plot_firstpic2.png)
 
+### Edge detection comparison
 
+![](img/roc.png)
 ## Citation
 ```
 @misc{yuanbin2021hierarchical,
