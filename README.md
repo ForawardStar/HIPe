@@ -13,9 +13,9 @@ python 3.5, pyTorch >= 1.4.0 (from https://pytorch.org/), numpy, Pillow.
 
 ### Training
 Before training and testing, the data path and output path should be properly changed.
-1. train the HIPe-Guider by running "main.py" existed in the FileFolder named "HIPe-Guider"
+1. Train the HIPe-Guider by running "main.py" existed in the FileFolder named "HIPe-Guider"
 
-2. train the HIPe-Peeler by running "main.py" existed in the FileFolder named "HIPe-Peeler"
+2. Train the HIPe-Peeler by running "main.py" existed in the FileFolder named "HIPe-Peeler"
 
 ### Testing
 
