@@ -47,11 +47,11 @@ For fully utilizing our multi-scale nature, we propose a novel strategy to apply
 
 Input image             |  HS
 :-------------------------:|:-------------------------:
-![](img/building3.png)  |  ![](img/building3_edge.png)
+![](img/0036.jpg)  |  ![](img/0036_HS.png)
 
 HS+Ours            |  GT
 :-------------------------:|:-------------------------:
-![](img/building3_smooth.png)  |  ![](img/Plot_firstpic2.png)
+![](img/0036_ours+HS.png)  |  ![](img/0036_GT.png)
 
 ## Citation
 ```
