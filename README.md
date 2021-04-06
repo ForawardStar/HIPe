@@ -18,16 +18,11 @@ Before training and testing, the data path and output path should be properly ch
 2. Train the HIPe-Peeler by running "main.py" existed in the FileFolder named "HIPe-Peeler"
 
 ### Testing
+We provide test images in FileFolder named "example", and your can change the file path to your own dataset.
+1. Run "test.py" existed in the FileFolder named "HIPe-Guider" to generate multi-scale edges as guidance
 
-If one wants to use the exemplar image which doesn't belong to target domain, just starting training using the following command
+2. Run "test_smooth.py" existed in the FileFolder named "HIPe-Peeler" to peel the input image guided by the generted edges
 
-```python train_CrossDomain.py```
- 
-### Testing
-1. Put the pre-trained model in your own path and change the checkpoint path of the code
-2. Starting testing using the following command
-
-```python test.py```
 
 ## Results
 Input image             |  Multi-scale edge guidance
