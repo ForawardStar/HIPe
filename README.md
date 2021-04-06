@@ -18,7 +18,7 @@ Before training and testing, the data path and output path should be properly ch
 2. Train the HIPe-Peeler by running "main.py" existed in the FileFolder named "HIPe-Peeler"
 
 ### Testing
-We provide the images for testing in FileFolder named "example", and your can change the file path to your own dataset.
+We provide the images for testing in FileFolder named "example", and your can change the file path to your own dataset. Our pre-trained model for HIPe-Guider and HIPe-Peeler are available at： https://pan.baidu.com/s/1xw1Z1HUxn1QmvYdYjua64A, Extraction code：lrh7
 1. Run "test.py" existed in the FileFolder named "HIPe-Guider" to generate multi-scale edges as guidance
 
 2. Run "test_smooth.py" existed in the FileFolder named "HIPe-Peeler" to peel the input image guided by the generated edges
