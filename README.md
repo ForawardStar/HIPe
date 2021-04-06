@@ -37,7 +37,8 @@ Filtered result             |  1-D signals of intensity corresponding to the row
 ![](img/building3_smooth.png)  |  ![](img/Plot_firstpic2.png)
 
 ### Edge detection comparison
-
+This is the edge detection comparison in terms of precision-recall curve on the BSDS500 dataset. our method obtains the ODS-F (optimal dataset scale F-score) of 0.748, being obviously superior to Canny and Pb, competitive with DeepContour and even slightly better than ISCRA, gPb-USM and SE. Compared with the deep supervised HED and RCF, there indeed exists a margin. This is reasonable because we do not introduce any pre-trained classification
+network as backbone. Our HIPe-Guider (998KB) is significantly smaller than DeepContour (27.5Mb), HED (56.1Mb) and RCF (56.5Mb).
 ![](img/roc.png)
 ## Citation
 ```
