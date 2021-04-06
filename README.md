@@ -12,11 +12,12 @@ python 3.5, pyTorch >= 1.4.0 (from https://pytorch.org/), numpy, Pillow.
 ## Usage
 
 ### Training
-1. Download the dataset you want to use and change the dataset directory. More datatsets can be found https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/
+Before training and testing, the data path and output path should be properly changed.
+1. train the HIPe-Guider by running "main.py" existed in the FileFolder named "HIPe-Guider"
 
-2. Starting training using the following command
+2. train the HIPe-Peeler by running "main.py" existed in the FileFolder named "HIPe-Peeler"
 
-```python train.py```
+### Testing
 
 If one wants to use the exemplar image which doesn't belong to target domain, just starting training using the following command
 
